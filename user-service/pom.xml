@@ -4,7 +4,7 @@
 
     <parent>
         <groupId>com.packtpub.mmj</groupId>
-        <artifactId>6392_chapter5</artifactId>
+        <artifactId>CloudNativeApp</artifactId>
         <version>MMJ-ED2-SNAPSHOT</version>
     </parent>
 

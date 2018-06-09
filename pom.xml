@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.packtpub.mmj</groupId>
-    <artifactId>6392_chapter5</artifactId>
+    <artifactId>CloudNativeApp</artifactId>
     <version>MMJ-ED2-SNAPSHOT</version>
-    <name>6392_chapter5</name>
-    <description>Master Microservices with Java Ed 2, Chapter 5</description>
+    <name>CloudNativeApp</name>
+    <description>Microservices with Java</description>
 
     <packaging>pom</packaging>
     <properties>
@@ -35,8 +35,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>zuul-server</module>
-        <module>common</module>
         <module>restaurant-service</module>
         <module>eureka-server</module>
         <module>dashboard-server</module>
@@ -44,6 +42,8 @@
         <module>user-service</module>
         <module>api-service</module>
         <module>booking-service</module>
+        <module>zuul-server</module>
+        <module>common</module>
     </modules>
 
     <!-- Build step is required to include the spring boot artifacts in generated jars -->
@@ -67,6 +67,7 @@
             </plugin>
         </plugins>
     </build>
+
 
     <repositories>
         <repository>

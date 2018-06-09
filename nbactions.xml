@@ -17,6 +17,7 @@
         </goals>
         <activatedProfiles>
             <activatedProfile>docker</activatedProfile>
+            <activatedProfile>jenkins</activatedProfile>
         </activatedProfiles>
     </action>
     <action>

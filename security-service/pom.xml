@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.packtpub.mmj</groupId>
-        <artifactId>4801_chapter6</artifactId>
-        <version>PACKT-SNAPSHOT</version>
+        <artifactId>CloudNativeApp</artifactId>
+        <version>MMJ-ED2-SNAPSHOT</version>
     </parent>
     <artifactId>security-service</artifactId>
     <packaging>jar</packaging>
