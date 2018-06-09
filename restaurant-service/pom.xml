@@ -33,7 +33,7 @@
 
                             <build>
                                 <from>java:8-jre</from>
-                                <maintainer>sourabhh</maintainer>
+                                <maintainer>mokshnadh</maintainer>
                                 <assembly>
                                     <descriptor>docker-assembly.xml</descriptor>
                                 </assembly>
