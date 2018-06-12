@@ -71,8 +71,8 @@
     <distributionManagement>
         <repository>
             <id>LocalCloudSnap</id>
-            <name>LocalCloudRepository</name>
-            <url>http://127.0.0.1:8080/nexus/content/repositories/releases</url>
+            <name>SpringCloudRepository</name>
+            <url>http://repo.spring.io/libs-snapshot-local</url>
         </repository>
     </distributionManagement>
 
