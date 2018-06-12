@@ -68,6 +68,13 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>LocalCloudSnap</id>
+            <name>LocalCloudRepository</name>
+            <url>http://127.0.0.1:8080/nexus/content/repositories/releases</url>
+        </repository>
+    </distributionManagement>
 
     <repositories>
         <repository>
